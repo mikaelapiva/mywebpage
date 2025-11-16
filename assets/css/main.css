@@ -260,7 +260,6 @@ input, select, textarea {
 	}
 
 	code {
-		background: rgba(255, 255, 255, 0.075);
 		border-radius: 4px;
 		font-family: "Courier New", monospace;
 		font-size: 0.9rem;
@@ -1643,6 +1642,8 @@ input, select, textarea {
 			opacity: 0.75;
 			margin-bottom: 0;
 			text-transform: uppercase;
+			padding: 30px;
+			background:rgba(0, 0, 0, 0.8); 
 		}
 
 		body.is-article-visible #footer {
